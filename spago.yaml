@@ -1,0 +1,26 @@
+package:
+  name: hylograph-transitions
+  description: Animation and transition support for Hylograph visualizations
+  publish:
+    version: 0.1.0
+    license: MIT
+    location:
+      githubOwner: afcondon
+      githubRepo: purescript-hylograph-transitions
+  dependencies:
+    - arrays
+    - control
+    - effect
+    - either
+    - foldable-traversable
+    - integers
+    - maybe
+    - numbers
+    - ordered-collections
+    - prelude
+    - refs
+    - strings
+
+workspace:
+  packageSet:
+    registry: 67.0.1
